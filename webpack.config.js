@@ -1,10 +1,9 @@
-//webpack.config describes evething that we want webpack to do to our files to ready them for production.
 var webpack = require("webpack");
 
 module.exports = {
   entry: "./src/index.js",
   output: {
-    path: "./dist/assets",
+    path: "dist/assets",
     filename: "bundle.js",
     publicPath: "assets"
   },
@@ -26,5 +25,3 @@ module.exports = {
     ]
   }
 }
-
-
